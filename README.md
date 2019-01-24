@@ -2,8 +2,8 @@
 
 Practice work with 'Redux Crash Course with React' by Traversy media
 
-<pre><code>#npm install -g create-react-app</code></pre>
-<pre><code>$create-react-app</code></pre>
-<pre><code>$npm start</code></pre>
+<pre><code>#npm install -g create-react-app
+$create-react-app
+$npm start</code></pre>
 
 
