@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux';
 import {fetchPosts} from '../actions/postActions';
+import uuid from 'uuid-v4'
 
 
 class Posts extends Component { 
@@ -17,7 +18,7 @@ class Posts extends Component {
 
   render() {
     const postItems = this.props.posts.map(post => (
-      <div key={post.id}>
+      <div key={uuid()}>
       <h3>{post.title}</h3>
       <p>{post.body}</p>
       </div>
