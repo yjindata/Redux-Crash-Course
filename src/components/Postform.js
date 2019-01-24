@@ -45,9 +45,7 @@ class Postform extends Component {
               value={this.state.title}
             />
           </div>
-
           <br />
-
           <div>
             <label>Body: </label>
             <br />
@@ -57,7 +55,7 @@ class Postform extends Component {
               value={this.state.body}
             />
           </div>
-          <br />
+          <br />      
           <button type="submit">Submit</button>
         </form>
       </div>
